@@ -1,0 +1,89 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='UTF-8')
+        meta(http-equiv='X-UA-Compatible' content='IE=edge')
+        meta(name='viewport' content='width=device-width, initial-scale=1.0')
+        title Website using HTML CSS JAVASCRIPT NODEJS MONGOOSE
+        style
+            include style.css
+            link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+    body
+        nav#navbar.navbar
+            #nav_container.nav_container
+                h1.company_name Pankaj Technical
+                ul#menu.menu
+                    li
+                        a(href='#home') Home
+                    li
+                        a(href='#about') About
+                    li
+                        a(href='#services') Service
+                    li
+                        a(href='#map') Gallery
+                    li
+                        a(href='/contact') Contact
+                #burger.burger
+                    .line
+                    .line
+                    .line
+        section#home.home
+            #home_text.home_text
+                h1 WE WILL HELP YOU TO
+                h2 GROW YOUR BUSINESS
+                h3
+                    | We Are The Team Of 
+                    b Professional Developer
+                    | ✌
+                button.btn READ MORE
+            img(src='static/growth.png' alt='GROWTH')
+        section#about.about
+            #top_about.top_about
+                h1 About Us
+                h3 grow Your business with us
+            #bottom_about.bottom_about
+                img(src='static/about.png' alt='GROWTH')
+                #bottom_about_text.bottom_about_text
+                    h1 WE ARE THE PROFESSIONAL
+                    h1 DEVELOPER✌
+                    p
+                        | Welcome To 
+                        b Pankaj Technical
+                        | . Your Number One Source For All Things.We're Dedicated To Giving
+                        | 					You The Very Best Of Work. With A Focus On [Three Characteristics. I.e. Dependability, Customer
+                        | 					Service And Uniqueness.]
+                    button.btn READ MORE
+        section#services.services
+            #top_services.top_services
+                h1 Our Services
+                h3 grow Your business with us
+            #bottom_services.bottom_services
+                #box1.box1.box
+                    h1 Settings
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, aliquam!
+                #box2.box2.box
+                    h1 Speedup
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, aliquam!
+                #box3.box3.box
+                    h1 Privacy
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, aliquam!
+                #box4.box4.box
+                    h1 Backups
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, aliquam!
+                #box5.box5.box
+                    h1 SSL secured
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, aliquam!
+                #box6.box6.box
+                    h1 Database
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, aliquam!
+        section#map.map
+            #top_map.top_map
+                h1 Location
+                h3
+                    | you can find us here 
+                    b Near you
+            iframe(src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2169.732061740158!2d73.85811854552581!3d18.520690293569153!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1a04def0b0b%3A0xfe3c6b68c6e6b0f1!2sHome!5e0!3m2!1sen!2sin!4v1631466782919!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy")
+        footer#footer.footer
+            p Created by Pankaj Rawat. © 2021
+        script
+            include resp.js

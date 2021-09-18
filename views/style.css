@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poiret One', cursive;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+/* ######################################        NAVBAR            ################################################ */
+/* .navbar{
+} */
+.navbar .nav_container{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    height: 1vh;
+    background: #a2a2a2;
+    overflow: hidden;
+}
+.navbar .nav_container h1{
+    align-items: center;
+    margin: 10px;
+    float: left;
+    position: absolute;
+    color:#5222d0;
+    text-shadow: 1px 1px #5222d0;
+    left: 9%;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+.navbar .nav_container ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    right: 9%;
+}
+.navbar .nav_container li{
+    list-style: none;
+}
+.navbar .nav_container a{
+    text-decoration: none;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px 15px;
+    color: #ffffff;
+    text-shadow: 1px 0 #ffffff;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    transition: all 0.3s ease-in-out;
+}
+.navbar .nav_container a:hover{
+    color: black;
+    text-shadow: 1px 0 black;
+}
+.navbar .nav_container .burger{
+    position: absolute;
+    right: 5%;
+    display: block;
+}
+
+.navbar .nav_container .burger .line{
+    width: 40px;
+    height: 6px;
+    background-color: #5126c1;
+    margin: 3px;
+}
+/* ######################################        HOME            ################################################ */
+
+
+
+
+.home{
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    background-color: #e7e7e7;
+}
+.home .home_text{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home .home_text h1{
+    font-size: 2.2rem;
+    font-weight: lighter;
+    margin: 5px 0 5px 0;
+    text-align: center;
+}
+.home .home_text h2{
+    font-size: 2.2rem;
+    color: #5222d0;
+    text-shadow: 1px 0 #5222d0;
+    margin: 5px 0 5px 0;
+    text-align: center;
+}
+.home .home_text h3{
+    font-size: 0.9rem;
+    margin: 5px 0 20px 0;
+    text-align: center;
+}
+.home .home_text h3 b{
+    font-weight: bolder;
+    color: black;
+    text-shadow: 0.5px 0 black;
+}
+.btn{
+    margin: 10px 0;
+    width: 111px;
+    height: 40px;
+    border: 4px solid #5322d0;
+    background: #5322d0c2;
+    color: white;
+    text-shadow: 1px 0 white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.btn:hover{
+    border: 4px solid #e95853;
+    background: #e9716d;
+}
+
+.home img{
+    max-width: 50%;
+    min-height:80%;
+    /* border: 2px solid red; */
+}
+    
+    
+    
+    
+    /* #############################################      ABOUT SECTION           ################################################### */
+
+
+.top_about{
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #e7e7e7;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_about>h1{
+    font-size: 2.5rem;
+    color: #ec615b;
+    text-shadow: 1px 0 #ec615b;
+    text-align: center;
+}
+
+.top_about h3{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    text-align: center;
+}
+
+
+
+.bottom_about{
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 0;
+    background-color: #e7e7e7;
+}
+.bottom_about .bottom_about_text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.bottom_about .bottom_about_text h1{
+    font-size: 2.2rem;
+    font-weight: lighter;
+    margin: 5px 0 5px 0;
+    text-align: center;
+}
+
+.bottom_about .bottom_about_text p{
+    font-size: 0.9rem;
+    margin: 5px 0 20px 0;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+}
+.bottom_about .bottom_about_text p b{
+    font-size: 1rem;
+    font-weight: bolder;
+    color: black;
+    text-shadow: 1px 0 black;
+}
+
+.bottom_about img{
+    max-width: 50%;
+    min-height:80%;
+}
+
+    
+    
+    
+    /* #############################################      SERVICES SECTION           ################################################### */
+
+
+.top_services{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #e7e7e7;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_services>h1{
+    font-size: 2.5rem;
+    color: #ec615b;
+    text-shadow: 1px 0 #ec615b;
+}
+
+.top_services h3{
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+
+.bottom_services{
+    height: 80vh;
+    background-color: #e7e7e7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bottom_services .box{
+    width: 249px;
+    height: 30%;
+    text-align: center;
+    background: white;
+    margin: 20px;
+    box-shadow: 0px 0px 10px 10px #bdbdbd;
+    transition: all 0.5s ease-in-out;
+}
+.bottom_services .box:hover{
+    background: rgb(218, 218, 218);
+    box-shadow: 0px 0px 15px 15px #424242;
+}
+
+.bottom_services .box h1{
+    color: black;
+    text-shadow: 1px 0 #000000;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.bottom_services .box p{
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+/* ###########################################        MAP           #################################################### */
+
+
+.top_map{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #e7e7e7;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_map h1{
+    font-size: 2.5rem;
+    color: #ec615b;
+    text-shadow: 1px 0 #ec615b;
+}
+
+.top_map h3{
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+
+.map{
+    width: 100%;
+    height: 110vh;
+}
+
+.map iframe{
+    height: 80vh;
+}
+
+/* ###########################################        CONTACT US           #################################################### */
+
+
+
+
+.contact .top_contact{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #e7e7e7;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .top_contact>h1{
+    font-size: 2.5rem;
+    color: #ec615b;
+    text-shadow: 1px 0 #ec615b;
+}
+
+.contact .top_contact h3{
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+.bottom_contact{
+    display: flex;
+    height: 70vh;
+    width: 100%;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: #e7e7e7;
+}
+
+.bottom_contact form{
+    display: flex;
+    flex-direction: column;
+    /* width: 50%; */
+    margin: auto;
+    justify-content: center;
+    /* align-items: center; */
+    /* border: 2px solid red; */
+}
+
+.bottom_contact form h1{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: black;
+    text-shadow: 0.7px 0 #000000;
+}
+
+.bottom_contact form h3{
+    margin-top: -20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.bottom_contact form input{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 27px;
+    border: 2px solid #8a8a8a;
+    border-radius: 7px;
+    /* padding-left: 10px; */
+}
+
+
+/* ###############################          FOOTER                        ################################################### */
+
+
+footer{
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+}
+
+/* #############################################         MEDIA QUIRE FOR 900px              ########################################################### */
+
+@media (max-width:900px){
+    .navbar .nav_container a {
+        font-size: 1rem;
+    }
+    .navbar .nav_container h1{
+        left: 0%;
+    }
+    .navbar .nav_container ul{
+        right: 0%;
+    }
+    .navbar .nav_container a{
+        margin: 5px 10px;
+    }
+    .home{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .home .home_text{
+        min-width: 100%;
+        margin:0 auto;
+    }
+    .home img{
+        min-width: 60%;
+        max-width: 100%;
+        min-height:40%;
+        max-height: 50%;
+        /* border: 2px solid red; */
+        margin: 0 auto;
+    }
+    
+    .bottom_about{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .bottom_about .bottom_about_text{
+        width: 90%;
+        display: flex;
+        margin: auto;
+    }
+    .bottom_about .bottom_about_text h1{
+        font-size: 2rem;
+    }
+    .bottom_about img{
+        min-width: 60%;
+        max-width: 100%;
+        min-height:30%;
+        max-height: 50%;
+        /* border: 2px solid red; */
+        margin: auto;
+    }
+    .bottom_services{
+        height: 100vh;
+    }
+    .bottom_services .box{
+        height: 25%;
+    }
+}
+
+
+/* #############################################         MEDIA QUIRE FOR 579px              ########################################################### */
+
+
+@media (max-width:579px){
+    .bottom_services{
+        height: 200vh;
+    }
+    
+    .bottom_services .box{
+        width: 250px;
+        height: 12%;
+        text-align: center;
+        background: white;
+        margin: 20px;
+        box-shadow: 0px 0px 10px 10px #bdbdbd;
+        transition: all 0.5s ease-in-out;
+    }
+}
+
+
+
+/* #############################################         MEDIA QUIRE FOR less than 579px for MENU              ########################################################### */
+
+@media (max-width:579px){
+    .navbar .nav_container ul{
+        display: flex;
+        flex-direction: column;
+        width: 40vw;
+        height: 50vh;
+        border: 2px solid rgb(0, 0, 0);
+        position: absolute;
+        align-items: center;
+        top: 0%;
+        background: linear-gradient(#ec615b,#5222d0);
+        opacity:0;
+    }
+    .navbar .nav_container .burger{
+        position: absolute;
+        right: 5%;
+        display: block;
+    }
+}
+
+/* #############################################         MEDIA QUIRE FOR 300px              ########################################################### */
+
+
+@media (max-width:300px){
+    .navbar .nav_container h1{
+        margin-right: 30vw;
+        left: 0%;
+        font-size: 1.5rem;
+        flex-wrap: wrap;
+    }
+    .bottom_contact form{
+        width: 90vw;
+    }
+}

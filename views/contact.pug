@@ -1,0 +1,53 @@
+doctype html
+html(lang='en')
+	head
+		meta(charset='UTF-8')
+		meta(http-equiv='X-UA-Compatible' content='IE=edge')
+		meta(name='viewport' content='width=device-width, initial-scale=1.0')
+		title Website using HTML CSS JAVASCRIPT NODEJS MONGOOSE
+		style
+			include style.css
+			link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+	body
+		nav#navbar.navbar
+			#nav_container.nav_container
+				h1.company_name Pankaj Technical
+				ul#menu.menu
+					li
+						a(href='/') Home
+					li
+						a(href='/') About
+					li
+						a(href='/') Service
+					li
+						a(href='/') Gallery
+					li
+						a(href='/contact') Contact
+				#burger.burger
+					.line
+					.line
+					.line
+		section#contact.contact
+			#top_contact.top_contact
+				h1 Contact Us
+				h3 we will be happy to help you😊
+			#bottom_contact.bottom_contact
+				form(action="/contact" method='POST' class="myform")
+					h1 Name
+					p
+						input#name.myinput(type='text' name='name' placeholder='Full Name')
+					h1 Email Address
+					p
+						input#email.myinput(type='email' name='email' placeholder='Enter your email')
+					h3 We'll never share your email with anyone else
+					h1 Phone Number
+					p
+						input#phone_number.myinput(type='text' name='phone_number' placeholder='Phone Number')
+					h1 Message
+					p
+						input#message.myinput(type='text' name='message' placeholder='Message')
+					button.btn SUBMIT
+		footer#footer.footer
+			p Created by Pankaj Rawat. © 2021
+		script
+			include resp.js
